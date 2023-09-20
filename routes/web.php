@@ -42,3 +42,8 @@ Route::prefix('admin')->group(function () {
     //pro
     Route::resource('product', ProductController::class);
 });
+
+//testGit
+Route::get('/test', function () {
+    return view('welcome');
+});
